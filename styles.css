@@ -174,6 +174,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+#container5-1-1 h1{
+    font-size: 40px;
+}
 #container5-1-2-1{
     align-items: center;
     display: flex;
@@ -232,4 +235,44 @@ body{
 .container5-2-1-1-1 a{
     text-decoration: none;
     color: black;
+}
+#container6{
+    padding-top: 80px;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container6-1 h1{
+    font-size: 40px;
+}
+#container6-2 {
+    display: flex;
+    padding-top: 80px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.container6-2-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container6-2-1 img{
+    width: 80px;
+    height: 80px;
+}
+#container6-3 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#container6-3 button{
+    background-color: #BE123C;
+    font-size: 20px;
+    color: white;
+    padding: 5% 20px 5% 20px;
+    border-style: solid;
+    border-color: #BE123C;
+    border-radius: 5px;
 }
