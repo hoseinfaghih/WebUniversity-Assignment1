@@ -267,7 +267,7 @@ body{
     padding-top: 80px;
     padding-bottom: 80px;
 }
-#container6-3 button{
+#container6-3 form button{
     background-color: #BE123C;
     font-size: 20px;
     color: white;
@@ -275,4 +275,124 @@ body{
     border-style: solid;
     border-color: #BE123C;
     border-radius: 5px;
+}
+#container7{
+    display: flex;
+    padding-top: 80px;
+    background-color: #475569;
+    width: 100%;
+    padding-bottom: 80px;
+}
+#container7-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+#container7-1-1 h1{
+    color: white;
+    align-items: center;
+    font-size: 60px;
+}
+#container7-1-2{
+    color: white;
+    padding-right: 20%;
+    font-size: 21px;
+}
+#container7-1-3{
+    color: white;
+    font-size: 21px;
+    
+}
+#container7-1-3 ul{
+    list-style: none;
+    padding: 0;
+}
+#container7-1-3 ul li::before{
+    content: '✓';
+}
+#container7-1-4 form button{
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    background-color: #475569;
+    padding: 1% 4% 1% 4%;
+    margin-top: 10px;
+} 
+#container7-2{
+    width: 50%;
+}
+#container7-2 img{
+    width: 90%;
+}
+#container8 {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F1F5F9;
+    display: flex;
+}
+#container8-1 {
+    width: 50%;
+}
+#container8-1 img{
+    width: 80%;
+}
+#container8-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#container8-2 h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+#container8-2 h5 span{
+    color: #3E75EC;
+}
+#container8-2 p{
+    font-size: 28px;
+}
+#container9{
+    display: flex;
+    flex-direction: row;
+    background-color: #475569;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+#container9-1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+#container9-1 h1{
+    font-size: 50px;
+}
+#container9-1 p{
+    font-size: 22px;
+}
+#container9-1 form button{
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    background-color: #475569;
+    padding: 1% 4% 1% 4%;
+    margin-top: 10px;
+}
+#container9-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
